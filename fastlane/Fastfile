@@ -1,6 +1,6 @@
 lane :test do
-  sads(
+  depot(
     token: "1234567890",
-    url: "https://sads.significa.co" # do not set api path
+    url: "https://depot.significa.co" # do not set api path
   )
 end

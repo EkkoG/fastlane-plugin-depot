@@ -1,5 +1,5 @@
 module Fastlane
-  module Sads
+  module Depot
     VERSION = "0.1.0"
   end
 end

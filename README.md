@@ -1,18 +1,18 @@
-# sads plugin
+# depot plugin
 
-[![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-sads)
+[![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-depot)
 
 ## Getting Started
 
-This project is a [_fastlane_](https://github.com/fastlane/fastlane) plugin. To get started with `fastlane-plugin-sads`, add it to your project by running:
+This project is a [_fastlane_](https://github.com/fastlane/fastlane) plugin. To get started with `fastlane-plugin-depot`, add it to your project by running:
 
 ```bash
-fastlane add_plugin sads
+fastlane add_plugin depot
 ```
 
-## About sads
+## About depot
 
-Upload app to self-host sads server https://github.com/significa/app-distribution-server
+Upload app to self-host depot server https://github.com/significa/app-distribution-server
 
 
 ## Example

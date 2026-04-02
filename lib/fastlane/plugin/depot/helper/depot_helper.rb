@@ -4,12 +4,12 @@ module Fastlane
   UI = FastlaneCore::UI unless Fastlane.const_defined?(:UI)
 
   module Helper
-    class SadsHelper
+    class DepotHelper
       # class methods that you define here become available in your action
-      # as `Helper::SadsHelper.your_method`
+      # as `Helper::DepotHelper.your_method`
       #
       def self.show_message
-        UI.message("Hello from the sads plugin helper!")
+        UI.message("Hello from the depot plugin helper!")
       end
     end
   end

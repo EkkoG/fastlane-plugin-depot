@@ -1,12 +1,12 @@
 require 'fastlane/action'
-require_relative '../helper/sads_helper'
+require_relative '../helper/depot_helper'
 require 'faraday'
 require 'faraday/multipart'
 require 'json'
 
 module Fastlane
   module Actions
-    class SadsAction < Action
+    class DepotAction < Action
       def self.run(params)
         localpath = Actions.lane_context[Fastlane::Actions::SharedValues::IPA_OUTPUT_PATH] || Actions.lane_context[Fastlane::Actions::SharedValues::GRADLE_APK_OUTPUT_PATH]
         if localpath.nil?

@@ -1,15 +1,15 @@
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'fastlane/plugin/sads/version'
+require 'fastlane/plugin/depot/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fastlane-plugin-sads'
-  spec.version       = Fastlane::Sads::VERSION
+  spec.name          = 'fastlane-plugin-depot'
+  spec.version       = Fastlane::Depot::VERSION
   spec.author        = 'Ekko'
   spec.email         = 'beijiu572@gmail.com'
 
-  spec.summary       = 'Upload app to self-host sads server https://github.com/significa/app-distribution-server'
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-sads"
+  spec.summary       = 'Upload app to self-host depot server https://github.com/significa/app-distribution-server'
+  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-depot"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
